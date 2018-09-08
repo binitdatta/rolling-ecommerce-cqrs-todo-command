@@ -1,0 +1,18 @@
+version: '2'
+services:
+  rolling-ecommerce-cqrs-todo-command:
+    environment:
+      CONFIG_SERVICE_PASSWORD: detachment
+      SPRING_PROFILES_ACTIVE: dev
+    image: 107222267664.dkr.ecr.us-west-2.amazonaws.com/rolling-ecommerce-cqrs-todo-command
+    mem_limit: 1073741824
+    cpu_shares: 100
+    container_name: rolling-ecommerce-cqrs-todo-command
+    restart: always
+    ports:
+      - "8081:8081"
+      - "9081:9081"
+    logging:
+      options:
+        max-size: "10m"
+        max-file: "10"
