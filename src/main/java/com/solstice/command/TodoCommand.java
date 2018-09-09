@@ -2,7 +2,7 @@ package com.solstice.command;
 
 import java.util.UUID;
 
-import com.solstice.command.interfaces.GenericCommand;
+import com.solstice.command.GenericCommand;
 import com.solstice.domain.Todo;
 
 public class TodoCommand implements GenericCommand {
