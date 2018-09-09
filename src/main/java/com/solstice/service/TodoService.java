@@ -6,7 +6,7 @@ import java.util.stream.Collectors;
 import java.util.stream.StreamSupport;
 
 import com.solstice.domain.Todo;
-import com.solstice.repository.TodoRepository;
+import com.solstice.repositories.TodoRepository;
 import org.springframework.stereotype.Service;
 
 @Service
