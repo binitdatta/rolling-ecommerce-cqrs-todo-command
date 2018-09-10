@@ -35,7 +35,7 @@ public class QueueListener {
 
         Todo todo = todoCommand.getTodo();
 
-        log.info("Todo :"+ todo.toString();
+        log.info("Todo :"+ todo.toString());
                  
         if (type.equalsIgnoreCase(GenericCommandType.CREATE_TODO.toString())){
             todoService.saveTodo(todo);
