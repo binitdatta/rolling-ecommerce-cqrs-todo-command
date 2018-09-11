@@ -1,12 +1,13 @@
-package com.solstice.service;
+package com.rollingstone.service;
 
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
 import java.util.stream.StreamSupport;
 
-import com.solstice.domain.Todo;
-import com.solstice.repositories.TodoRepository;
+import com.rollingstone.domain.Todo;
+import com.rollingstone.repositories.TodoRepository;
+
 import org.springframework.stereotype.Service;
 
 @Service

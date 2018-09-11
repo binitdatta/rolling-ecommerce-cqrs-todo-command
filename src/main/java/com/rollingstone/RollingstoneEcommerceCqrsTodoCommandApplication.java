@@ -1,12 +1,12 @@
-package com.solstice;
+package com.rollingstone;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SolsticeEcommerceCqrsTodoCommandApplication {
+public class RollingstoneEcommerceCqrsTodoCommandApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SolsticeEcommerceCqrsTodoCommandApplication.class, args);
+        SpringApplication.run(RollingstoneEcommerceCqrsTodoCommandApplication.class, args);
     }
 }

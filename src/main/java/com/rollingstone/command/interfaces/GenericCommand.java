@@ -1,8 +1,8 @@
-package com.solstice.command;
+package com.rollingstone.command.interfaces;
 
 import java.io.Serializable;
 
-import com.solstice.command.GenericCommandHeader;
+import com.rollingstone.command.GenericCommandHeader;
 
 @SuppressWarnings("unused")
 public interface GenericCommand extends  Serializable {

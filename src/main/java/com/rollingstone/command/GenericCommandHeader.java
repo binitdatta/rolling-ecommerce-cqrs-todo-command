@@ -1,4 +1,4 @@
-package com.solstice.command;
+package com.rollingstone.command;
 
 import java.sql.Timestamp;
 

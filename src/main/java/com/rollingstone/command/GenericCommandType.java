@@ -1,4 +1,4 @@
-package com.solstice.command;
+package com.rollingstone.command;
 
 @SuppressWarnings("unused")
 public enum GenericCommandType {

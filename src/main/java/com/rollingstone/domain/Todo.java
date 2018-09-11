@@ -1,4 +1,4 @@
-package com.solstice.domain;
+package com.rollingstone.domain;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

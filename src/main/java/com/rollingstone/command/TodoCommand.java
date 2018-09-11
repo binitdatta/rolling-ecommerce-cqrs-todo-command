@@ -1,9 +1,9 @@
-package com.solstice.command;
+package com.rollingstone.command;
 
 import java.util.UUID;
 
-import com.solstice.command.GenericCommand;
-import com.solstice.domain.Todo;
+import com.rollingstone.command.interfaces.GenericCommand;
+import com.rollingstone.domain.Todo;
 
 public class TodoCommand implements GenericCommand {
 

@@ -1,4 +1,4 @@
-package com.solstice.listener;
+package com.rollingstone.listener;
 
 import org.springframework.stereotype.Service;
 import org.slf4j.LoggerFactory;
@@ -7,11 +7,10 @@ import org.slf4j.Logger;
 import org.springframework.cloud.aws.messaging.listener.SqsMessageDeletionPolicy;
 import org.springframework.cloud.aws.messaging.listener.annotation.SqsListener;
 
-import com.solstice.service.TodoService;
-import com.solstice.command.TodoCommand;
-import com.solstice.command.GenericCommandType;
-
-import com.solstice.domain.Todo;
+import com.rollingstone.command.GenericCommandType;
+import com.rollingstone.command.TodoCommand;
+import com.rollingstone.domain.Todo;
+import com.rollingstone.service.TodoService;
 
 @Service
 @SuppressWarnings("unused")
