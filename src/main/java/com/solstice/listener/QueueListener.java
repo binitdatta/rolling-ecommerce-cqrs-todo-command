@@ -39,7 +39,7 @@ public class QueueListener {
                  
         if (type.equalsIgnoreCase(GenericCommandType.CREATE_TODO.toString())){
             todoService.saveTodo(todo);
-        }else if (type.equalsIgnoreCase(GenericCommandType.CREATE_TODO.toString())){
+        }else if (type.equalsIgnoreCase(GenericCommandType.UPDATE_TODO.toString())){
             //update todo
             todoService.saveTodo(todo);
         }
